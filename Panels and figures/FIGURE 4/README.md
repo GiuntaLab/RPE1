@@ -53,7 +53,7 @@ Dorado outputs directly the modified 5mC in the SAM/BAM files mapping in paralle
 ```
 
 ### Data processing
-The output is a BAM file with the evaluation of each 5-methylcytosine (5mC) performed using raw data (POD5) and the matched reference (rpe1.v1.0.fasta). We used Modkit to convert the modBAM to bedMethyl file using the following command: 
+The output is a modBAM file with the evaluation of each 5-methylcytosine (5mC) performed using raw data (POD5) and the matched reference (rpe1.v1.0.fasta). After sorting the modBAM file, we used Modkit to convert the modBAM to bedMethyl file using the following command: 
 
 ```
 modkit pileup rpe1.v1.0.fasta_5mC.bam.sort.bam
@@ -65,7 +65,6 @@ RPE1.v1.0.modkit.bed
 --filter-threshold 0.80
 ```
 
+
 ### Graphical representation
 R scripts and example files for Figure 4 panel C (i.e. chromosome 9).
-
-
