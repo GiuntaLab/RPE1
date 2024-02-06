@@ -79,7 +79,12 @@ RPE-1 HOR Structural Variant (StV) prediction using HOR-monomer annotation using
 - [StV](https://github.com/fedorrik/stv)
 Sequence identity heatmap were obtined using StainedGlass:
 - [StainedGlass0.5](https://github.com/mrvollger/StainedGlass)
-   
+
+#### Alignment
+Reads alignment was performed on diploid RPE1v1.0 or CHM13v2.0 using [NucFreq](https://github.com/mrvollger/NucFreq) v0.1 and visualized with Nucplot.py. Alignments were done whole-genome. NM and mapQ were extracted from the RPE1v1.0 Hap1 BAM, RPE1v1.0 Hap2 BAM, and CHM13 BAM whole-genome or from SyRI coordinates of highly-diverged regions (HDR).  
+
+*Information related to [Figure 3](https://www.biorxiv.org/content/10.1101/2023.11.01.565049v2.full.pdf+html)*. [See linked scripts]
+
 #### Epigenetic analysis
 Centromere chromatin phased landscapes were obtained from RPE-1 CUT&RUN CENP-A [dataset](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132193) (GSE132193). Comparison in short reads alignment mapping using the following reference genomes:
 - RPE1v1.0 Hap 1
