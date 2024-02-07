@@ -2,7 +2,7 @@
 This folder contains all the workflow used to perform the epigenetic analysis.  
 
 ## Prerequisites:
-- SRA Toolkit, samtools
+- SRA Toolkit, samtools, awk
 - Bowtie2
 - MACS3
 - dorado
@@ -65,6 +65,7 @@ RPE1.v1.0.modkit.bed
 --filter-threshold 0.80
 ```
 
+Then, we used *awk* to filter the methylation in the plus strand and the modified fraction (Nmod / Nvalid_cov) over 60. 
 
 ### Graphical representation
 R scripts and example files for Figure 4 panel C (i.e. chromosome 9).
