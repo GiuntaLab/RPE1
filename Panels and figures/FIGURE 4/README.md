@@ -65,7 +65,7 @@ RPE1.v1.0.modkit.bed
 --filter-threshold 0.80
 ```
 
-Then, we used *awk* to filter the methylation in the plus strand and the modified fraction (Nmod / Nvalid_cov) over 60. 
+Then, we used *awk* to filter the methylation profile in the plus strand and the modified fraction (N<sub>mod</sub> / N<sub>valid_cov</sub>) over 60. 
 
 ### Graphical representation
 R scripts and example files for Figure 4 panel C (i.e. chromosome 9).
