@@ -31,7 +31,7 @@ CENP-A peaks were determined using [MACS3](https://github.com/macs3-project/MACS
 macs3 callpeak -t [read_IP] -c [read_INPUT] -f BAMPE -B -g 3.03e9 -q 0.00001 -n CHM13_CENPA #haploid mapping
 macs3 callpeak -t [read_IP] -c [read_INPUT] -f BAMPE -B -g 6.06e9 -q 0.00001 -n RPE1v1.0dip_CENPA #diploid mapping
 ```
-Among all the outputs of this command, we processed the bedGraph files filtering by q-value ≤0.001 (Supplementary Fig. 12), q-value ≤0.00001 (Fig. 4a, b (small panel n.2), c), and q-value ≤0.0000001 (Fig. 4b (small panel n.3-4).
+Among all the outputs of this command, we processed the bedGraph files filtering by q-value ≤0.001 (Supplementary Fig. 12), q-value ≤0.00001 (Fig. 4a, b (small panel n.2), c), and q-value ≤0.0000001 (Fig. 4b (small panel n.3-4)).
 The bedGraph files were used in karyoploteR to plot each chromatin density profile.
 
 ## Methylation phased profiles using *Dorado* and *Modkit*
