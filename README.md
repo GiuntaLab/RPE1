@@ -102,7 +102,7 @@ Files:
 - HG002v1.0.bedgraph
 
 #### Methylation profiles
-Methylation profiles for 5-methylcytosine (5mc) were generated from the ONT RPE-1 POD5 (3.6 TB) using [Dorado v4.2.0 basecalling model](https://github.com/nanoporetech/dorado/releases) and the output processed with Modkit. Following the evaluation of reads coverage values Ncanonical and Nmod, we selected the filter Nvalid_cov score >0.60 applied to the bedMethyl output. 
+Methylation profiles for 5-methylcytosine (5mc) were generated from the ONT RPE-1 POD5 (3.6 TB) using [Dorado v4.2.0 basecalling model](https://github.com/nanoporetech/dorado/releases) and the output processed with Modkit. Following the evaluation of reads coverage values N<sub>canonical</sub> and N<sub>mod</sub>, we selected the filter (N<sub>mod</sub> / N<sub>valid_cov</sub>) >60 applied to the bedMethyl output. 
 
 Files:
 - Dorado output: BAM cytosines with tags MM (5mC) and ML (probability score)
