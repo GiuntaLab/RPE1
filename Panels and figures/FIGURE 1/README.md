@@ -1,5 +1,5 @@
 # FIGURE 1 - Quality evaluation of the RPE-1 diploid genome assembly
-This folder contains the workflow used to assess diploid assembly quality and correcteness.
+Workflow used to assess diploid assembly quality and correcteness.
 
 ## Prerequisites:
 - Meryl
@@ -47,3 +47,29 @@ Clipped information derived from raw reads mapped back to the assembly identify 
 craq -mgs 1000 -q 10 -avgl 45 -avgs 60 -pl T -b T -D [output_directory] -g [index_reference] -sms [reads_hifi] -ngs [reads_illumina_pcrfree] -x map-hifi 
 ```
 Bed files obtained using this tool were used for Figure 1 panel B.
+
+# FIGURE 1 - Syntenic and structural rearrangments in RPE-1 genome:
+Workflow used to identies specific structural rearrangements comparing RPE-1 haplotypes and haploid CHM13 genome.
+
+## Prerequisites:
+- python3
+- plotsr
+- Minimap2
+
+## Genome-to-genome alignment using *Minimap2*
+
+```
+minimap2 -ax asm5 --eqx [refgenome.fasta] [qrygenome.fasta] > [out.sam]
+```
+## The SAM was used to identifies and plot synteny and rearrangements between CHM13/Hap 1-CHM13/Hap 2:
+
+```
+syri -c [out.sam] -r [refgenome] -q [qrygenome] -k -F B
+plotsr --sr [syri.out] --genomes [genomes.txt] --tracks [centromeres_track.txt] --chrord [chord.txt] -H 6 -W 4 -b pdf -v > [plotsr.pdf]
+
+```
+Syntenic and structural rearrangements are shown in Figure 1 panel D.
+
+
+
+
