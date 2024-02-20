@@ -41,8 +41,8 @@ samtools index [hifi_reads_primary.bam]
 ```
 grep 'HDR.*SYN\|SYN.*HDR' [syri.out] > [hdr.syntenic.bed]
 ```
-## Extract edit distance and mapping quality from HDR BAM files
-### Extract bed file coordinates from BAM file:
+### Extract edit distance and mapping quality from HDR BAM files
+Extract bed file coordinates from BAM file
 
 ```
 bedtools intersect -abam [*.primary.bam] -b [*/*syri.hdr.syn.bed] > [*/*primaryhdr.bam]
