@@ -1,0 +1,1 @@
+hap1.humas.centr.bed	C	lw:0.1;lc:black
