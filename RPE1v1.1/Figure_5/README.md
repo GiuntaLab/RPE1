@@ -1,4 +1,4 @@
-# Figure 4 - igure 5 - Comparison between HPRC assemblies and hTERT RPE-1 assembly.
+# Figure 5 - Comparison between HPRC assemblies and hTERT RPE-1 assembly.
 Workflow followed to compare hTERT RPE-1 assembly with HPRC assemblies using pangenome graph construction and similarity analysis.
 
 ## Prerequisites
