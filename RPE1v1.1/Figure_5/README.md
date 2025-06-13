@@ -8,12 +8,9 @@ Workflow followed to compare hTERT RPE-1 assembly with HPRC assemblies using pan
 - pggb
 - odgi
 
-#### Download and prepare hTERT RPE-1 assembly
+#### Prepare hTERT RPE-1 assembly
 
 ```shell
-cd /scratch
-wget -c https://www.dropbox.com/scl/fo/i5v31h6zkc0l0x67efwnd/h/GIUNTAlab_RPE1v1.1.zip?rlkey=zmv4kz1unkqg28nljerwjnkuh&dl=0
-unzip GIUNTAlab_RPE1v1.1.zip\?rlkey=zmv4kz1unkqg28nljerwjnkuh\&dl=0
 sed '/>/ s/>chr\([^_]*\)_hap1/>rpe1#1#chr\1_hap1/; />/ s/>chr\([^_]*\)_hap2/>rpe1#2#chr\1_hap2/' GIUNTAlab_RPE1v1.1/rpe1v1.1.fasta | bgzip -@ 48 -l 9 > rpe1v1.1.fa.gz && samtools faidx rpe1v1.1.fa.gz
 ```
 
