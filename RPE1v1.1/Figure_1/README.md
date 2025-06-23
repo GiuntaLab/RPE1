@@ -9,6 +9,7 @@ Workflow followed to assess diploid assembly quality and correcteness.
   - Hi-C reads (FASTQ)
 
 - **Tools**
+  - R (ggplot2, dplyr, readr and stringr packages)
   - Verkko
   - meryl
   - Merqury
@@ -117,4 +118,4 @@ This workflow outputs four BED files, each corresponding to different genomic re
 
 - **Duplicated** – No falsely duplicated regions were detected.  
 
-The BED files obtained using this tool were used for **panel D** of Figure 1.
+The `flagger_barplot.R` script was used to generate **panel D** of Figure 1, based on the BED files produced in the previous steps.
