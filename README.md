@@ -12,7 +12,14 @@ Supplemental information is available in the **Zenodo Repository**:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15789913.svg)](https://doi.org/10.5281/zenodo.15789913)  
 
 #### Genome availabiliy
-The RPE1v1.1 genome has been deposited in NCBI GenBank under the accession numbers [JBJQNK000000000](https://www.ncbi.nlm.nih.gov/nuccore/JBJQNK000000000) (Hap1) and [JBJQNL000000000](https://www.ncbi.nlm.nih.gov/nuccore/JBJQNL000000000) (Hap2), with links to BioProject accession numbers [PRJNA1193286](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1193286/) (Hap1) and [PRJNA1193302](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1193302/) (Hap2), both under the umbrella BioProject accession number [PRJNA1195024](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1195024/).
+The RPE1v1.1 genome has been deposited in NCBI GenBank under the accession numbers [JBJQNK000000000](https://www.ncbi.nlm.nih.gov/nuccore/JBJQNK000000000) (Hap1) and [JBJQNL000000000](https://www.ncbi.nlm.nih.gov/nuccore/JBJQNL000000000) (Hap2), with links to BioProject accession numbers [PRJNA1193286](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1193286/) (Hap1) and [PRJNA1193302](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1193302/) (Hap2), both under the umbrella BioProject accession number [PRJNA1195024](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1195024/).    
+RPE1v1.1 genome is also available in the **UCSC Genome Browser**:  
+
+- **Hap1**:  
+  [https://genome.ucsc.edu/cgi-bin/hgTracks?genome=GCA_050656345.1&hubUrl=/gbdb/genark/GCA/050/656/345/GCA_050656345.1/hub.txt](https://genome.ucsc.edu/cgi-bin/hgTracks?genome=GCA_050656345.1&hubUrl=/gbdb/genark/GCA/050/656/345/GCA_050656345.1/hub.txt)  
+
+- **Hap2**:  
+  [https://genome.ucsc.edu/cgi-bin/hgTracks?genome=GCA_050656315.1&hubUrl=/gbdb/genark/GCA/050/656/315/GCA_050656315.1/hub.txt](https://genome.ucsc.edu/cgi-bin/hgTracks?genome=GCA_050656315.1&hubUrl=/gbdb/genark/GCA/050/656/315/GCA_050656315.1/hub.txt)  
 
 ### RPE1v1.0  
 **The complete diploid reference genome of RPE-1 identifies human phased epigenetic landscapes**  
