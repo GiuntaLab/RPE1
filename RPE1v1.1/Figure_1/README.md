@@ -118,4 +118,6 @@ This workflow outputs four BED files, each corresponding to different genomic re
 
 - **Duplicated** – No falsely duplicated regions were detected.  
 
+Regions flagged as **Erroneous** or **Collapsed** can be considered as "low confidence".
+
 The `flagger_barplot.R` script was used to generate **panel D** of Figure 1, based on the BED files produced in the previous steps.
