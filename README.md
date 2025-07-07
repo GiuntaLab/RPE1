@@ -16,10 +16,10 @@ The RPE1v1.1 genome has been deposited in NCBI GenBank under the accession numbe
 RPE1v1.1 genome is also available in the **UCSC Genome Browser**:  
 
 - **Hap1**:  
-  [https://genome.ucsc.edu/cgi-bin/hgTracks?genome=GCA_050656345.1&hubUrl=/gbdb/genark/GCA/050/656/345/GCA_050656345.1/hub.txt](https://genome.ucsc.edu/cgi-bin/hgTracks?genome=GCA_050656345.1&hubUrl=/gbdb/genark/GCA/050/656/345/GCA_050656345.1/hub.txt)  
+  [https://genome.ucsc.edu/h/GCA_050656315.1](https://genome.ucsc.edu/h/GCA_050656315.1)  
 
 - **Hap2**:  
-  [https://genome.ucsc.edu/cgi-bin/hgTracks?genome=GCA_050656315.1&hubUrl=/gbdb/genark/GCA/050/656/315/GCA_050656315.1/hub.txt](https://genome.ucsc.edu/cgi-bin/hgTracks?genome=GCA_050656315.1&hubUrl=/gbdb/genark/GCA/050/656/315/GCA_050656315.1/hub.txt)  
+  [https://genome.ucsc.edu/h/GCA_050656345.1](https://genome.ucsc.edu/h/GCA_050656345.1)  
 
 ### RPE1v1.0  
 **The complete diploid reference genome of RPE-1 identifies human phased epigenetic landscapes**  
