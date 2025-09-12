@@ -6,7 +6,7 @@ We have sequenced the diploid genome of the human diploid laboratory cell line R
 ### RPE1v1.1  
 This is the latest release, incorporating manual curation of gaps present in RPE1v1.0 and the recovery of previously unassigned telomeric sequences.  
 Assembly, validation and comparison with other genomes are described in the following publication:  
-Volpe, Colantoni et al. [The reference genome of the human diploid cell line RPE-1.](https://www.nature.com/articles/s41467-025-62428-z). *Nature Communications*, 2025.  
+Volpe, Colantoni et al. [The reference genome of the human diploid cell line RPE-1](https://www.nature.com/articles/s41467-025-62428-z). *Nature Communications*, 2025.  
 Documentation, scripts, files and figures relative to the main figures are available in the `RPE1v1.1/` folder.  
 Supplemental information is available in the **Zenodo Repository**:  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15789913.svg)](https://doi.org/10.5281/zenodo.15789913)  
