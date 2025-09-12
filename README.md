@@ -5,14 +5,16 @@ We have sequenced the diploid genome of the human diploid laboratory cell line R
 
 ### RPE1v1.1  
 This is the latest release, incorporating manual curation of gaps present in RPE1v1.0 and the recovery of previously unassigned telomeric sequences.  
-**The reference genome of the human diploid cell line RPE-1**  
-Volpe, Colantoni et al., *Manuscript Under Revision*  
+Assembly, validation and comparison with other genomes are described in the following publication:  
+Volpe, Colantoni et al. [The reference genome of the human diploid cell line RPE-1.](https://www.nature.com/articles/s41467-025-62428-z). *Nature Communications*, 2025.  
 Documentation, scripts, files and figures relative to the main figures are available in the `RPE1v1.1/` folder.  
 Supplemental information is available in the **Zenodo Repository**:  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15789913.svg)](https://doi.org/10.5281/zenodo.15789913)  
 
 #### Genome availabiliy
 The RPE1v1.1 genome has been deposited in NCBI GenBank under the accession numbers [JBJQNK000000000](https://www.ncbi.nlm.nih.gov/nuccore/JBJQNK000000000) (Hap1) and [JBJQNL000000000](https://www.ncbi.nlm.nih.gov/nuccore/JBJQNL000000000) (Hap2), with links to BioProject accession numbers [PRJNA1193286](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1193286/) (Hap1) and [PRJNA1193302](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1193302/) (Hap2), both under the umbrella BioProject accession number [PRJNA1195024](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA1195024/).    
+To download the diploid RPE1v1.1 genome with the chromosome names used in the study, please use the following link, fill in the form, access the link that will be emailed to you and download the `GIUNTAlab_RPE1V1.1.gz` file:
+[https://forms.gle/7TPggHvT1Na2G3oX7](https://forms.gle/7TPggHvT1Na2G3oX7)  
 RPE1v1.1 genome is also available in the **UCSC Genome Browser**:  
 
 - **Hap1**:  
