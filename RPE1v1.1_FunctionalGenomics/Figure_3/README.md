@@ -91,7 +91,7 @@ custom.genome <- toGRanges(data.frame(chr = c('chr17'), start = c(1), end = c(90
 
 kp <- plotKaryotype(plot.type = 1, genome = custom.genome, chromosomes = 'chr17', cex = 0.5, main = 'Het chr17 hap2', plot.params = pp)
 
-chr17_het <- read.table(file = "/data/Emilia.data/HetDetection_nucfreq/chr17.hap2.HiFi.tbl", header = TRUE, sep = "	", stringsAsFactors = FALSE)
+chr17_het <- read.table(file = "/data/HetDetection_nucfreq/chr17.hap2.HiFi.tbl", header = TRUE, sep = "	", stringsAsFactors = FALSE)
 chr17_het <- setNames(chr17_het, c("chr", "start", "end", "het_ratio"))
 chr17_het <- toGRanges(chr17_het[, c("chr", "start", "end", "het_ratio")])
 
