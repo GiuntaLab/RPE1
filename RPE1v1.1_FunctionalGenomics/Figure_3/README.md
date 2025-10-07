@@ -45,10 +45,10 @@ Nucleotide frequency plots were generated with the **NucPlot.py** script from th
 #!/bin/bash
 
 # Directory containing BAM files
-BAM_DIR="/data/Emilia.data/YAO_ALIGNEMENT/split"
+BAM_DIR="/data/YAO_ALIGNEMENT/split"
 
 # Path to NucPlot script
-NUCPLOT="/data/Emilia.data/NucFreq-0.1/NucPlot.py"
+NUCPLOT="/data/NucFreq-0.1/NucPlot.py"
 
 # Parameters
 YMAX=300
@@ -83,7 +83,7 @@ Example snippet from the R workflow:
 ```r
 library(karyoploteR)
 
-pdf('/data/Emilia.data/HetDetection_nucfreq/chr17_hap2_het.pdf', onefile = TRUE, paper = 'a4r', width = 30, height = 30)
+pdf('/data/HetDetection_nucfreq/chr17_hap2_het.pdf', onefile = TRUE, paper = 'a4r', width = 30, height = 30)
 pp <- getDefaultPlotParams(plot.type = 1)
 pp$ideogramheight <- 20
 pp$data1height <- 200
