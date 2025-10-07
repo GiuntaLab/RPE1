@@ -22,7 +22,7 @@ YMAX=300
 MINOBED=2
 DPI=500
 
-# Loop over BAMs (unchanged logic)
+# Loop over BAMs 
 for BAM in "$BAM_DIR"/*.bam; do
     BASE=$(basename "$BAM" .bam)
     OBED="${BASE}.obed.bed"
